@@ -1,0 +1,152 @@
+.container3 a img {
+    width: 70px;
+  }
+  
+  
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logos a {
+    margin: 0 50px; /* Espacio entre los logos */
+  }
+  
+  
+  
+  .Ofertas {
+    display: flex;
+  }
+  
+  .Ofertas li{
+    margin: auto;
+    list-style: none;
+  }
+  
+  
+  .container3 {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Para centrar verticalmente */
+    padding: 0 195px; /* Agregar un espacio de relleno alrededor del contenedor */
+  }
+  
+  
+  .left ul, .right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .right img {
+    vertical-align: middle; /* Alinea verticalmente la imagen */
+  }
+  
+  .container3 li {
+    color: #fff;
+    list-style: none;
+    
+  }
+  
+  
+  .container1 {
+    display: flex;
+    justify-content: space-between; /* Esto distribuirá los elementos equitativamente */
+    align-items: center; /* Esto centrará verticalmente los elementos */
+    padding: 0 173px; /* Añade relleno a los lados para separar del borde */
+  }
+  
+  .menu {
+    margin-right: auto; /* Empuja el menú hacia la izquierda */
+  }
+  
+  .logobux {
+    margin  :auto; 
+  }
+  
+  .login {
+    margin-left: auto ; /* Empuja el botón de login hacia la derecha */
+    padding: 0 170px ;
+    
+  }
+  
+  .login a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .Container-ofertas {
+    background-color: #000000;
+    color: #fff;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+      
+    }
+    
+    .menu ul li {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .menu ul li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #000000;
+    }
+    
+    .menu ul li:hover > ul {
+      display: block;
+      animation: slideDown 0.3s ease-in-out;
+    }
+    
+    .menu ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 10px;
+      z-index: 999; 
+    }
+    
+    .menu ul ul li {
+      display: block;
+    }
+    
+    .menu ul ul li a {
+      padding: 10px 20px;
+      color: black;
+      
+    }
+    
+    .menu ul ul ul {
+      left: 100%;
+      top: 0;
+    }
+    
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
